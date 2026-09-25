@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Meridian — Would your retirement have survived 1929?</title>
+<meta name="description" content="Meridian is a retirement planner for iPhone and Android. It shows how long your money will last, then replays your plan through every market since 1928 to see how often it held up. No account, nothing linked to a bank." />
+<meta name="theme-color" content="#F4F1EC" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#141917" media="(prefers-color-scheme: dark)" />
+<meta property="og:title" content="Meridian — Would your retirement have survived 1929?" />
+<meta property="og:description" content="A retirement planner that replays your plan through every market since 1928 — the crashes, the booms, the inflation — and tells you how often it lasted." />
+<meta property="og:image" content="images/icon-512.png" />
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Fraunces:opsz,wght@9..144,400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=1" />
+</head>
+<body>
+
+<div class="col col-home">
+
+  <!-- ============ HERO ============ -->
+  <section class="section hero">
+    <header class="site-header">
+      <a href="index.html" class="wordmark"><img src="images/mark.svg" alt="" width="28" height="28" />Meridian</a>
+      <nav>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">A retirement planner for iPhone and Android</div>
+        <h1 class="hero-question">Would your retirement have survived <em>1929</em>?</h1>
+        <p class="lede">Meridian replays your plan through every market since 1928 — the crashes, the booms, the inflation — and tells you how often it lasted.</p>
+        <ul class="hero-points">
+          <li>No account to make, and nothing linked to a bank.</li>
+          <li>You type in your savings; the plan stays on your phone.</li>
+          <li>Free to use. Meridian Plus adds more when you want it.</li>
+        </ul>
+        <div class="badge-row">
+          <span class="store-badge coming-soon" aria-label="Coming soon to the App Store">
+            <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+            <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">App Store</span></span>
+          </span>
+          <span class="store-badge coming-soon" aria-label="Coming soon to Google Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5V3.5c0-.55.45-1 1-1 .18 0 .35.05.51.13l14.14 8.5c.4.24.4.83 0 1.07L5.01 20.87c-.16.08-.33.13-.51.13-.55 0-1-.45-1-1z"/></svg>
+            <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">Google Play</span></span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Home screen (sample plan) -->
+      <figure class="phone-wrap" style="margin-bottom:0;">
+        <div class="phone" role="img" aria-label="Meridian's Home screen for a sample plan: the money lasts to age 100+, and in real market history since 1928 it lasted to 95 in 63 of 68 starting years — sturdy.">
+          <div class="island"></div>
+          <div class="screen" aria-hidden="true">
+            <div class="m-date">Thursday, September 24</div>
+            <div class="m-hello">Good morning, Alex</div>
+            <div class="m-card">
+              <span class="m-pill">In great shape</span>
+              <div class="m-eyebrow">If you retire at 65</div>
+              <div class="m-lasts">Your money lasts to age</div>
+              <div class="m-big">100+</div>
+              <div class="m-strong">Lasts well past your goal of 95.</div>
+              <div class="m-muted">About $410,000 left at 95, in today’s dollars.</div>
+              <div class="m-bar"><span class="goal" style="left:86%"></span></div>
+              <div class="m-bar-labels"><span>61</span><span style="margin-right:8%">Goal 95</span></div>
+              <div style="margin-top:8px;">In real market history since 1928, it lasted to 95 in <span class="m-strong">63 of 68</span> starting years — <span class="m-link">sturdy</span>.</div>
+              <div class="m-sep"></div>
+              <div class="m-row"><div><div class="m-link">Your plan</div><div class="m-muted">Retiring at 65 · $5,800 a month</div></div><span class="m-muted">›</span></div>
+              <div class="m-sep"></div>
+              <div class="m-row"><div><div class="m-link">Your paycheck at 65</div><div class="m-muted">$5,800 a month after tax</div></div><span class="m-muted">›</span></div>
+              <div class="m-sep"></div>
+              <div class="m-row"><div><div class="m-strong">Savings · $1,240,000</div><div class="m-muted">Updated today</div></div><span class="m-link">Update ›</span></div>
+            </div>
+          </div>
+        </div>
+        <figcaption class="phone-caption">Home, for a sample plan</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ HOW LONG ============ -->
+  <section class="section alt">
+    <div class="eyebrow copper">Free</div>
+    <h2 class="h2">How long will my money last?</h2>
+    <p class="sub">Tell Meridian your ages, your savings, what you spend and what comes in. It works out how long your savings last in today’s dollars, and tells you plainly where that leaves you.</p>
+
+    <div class="feature-list two three">
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <div>
+          <div class="feature-title">How long it lasts</div>
+          <div class="feature-body">The age your money lasts to, and guidance for where your plan stands.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 3 5-7 4 4"/><path d="M3 21h18"/></svg></div>
+        <div>
+          <div class="feature-title">Tested against history</div>
+          <div class="feature-body">Sturdy, shaky or fragile — and how many starting years since 1928 it lasted in.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg></div>
+        <div>
+          <div class="feature-title">Savings by account</div>
+          <div class="feature-body">Pre-tax, Roth and taxable savings, each with its own taxes and investments.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0 1 14-5.3M20 12a8 8 0 0 1-14 5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg></div>
+        <div>
+          <div class="feature-title">Keeps up month to month</div>
+          <div class="feature-body">Update your savings as often as you like; the plan and its history follow.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></div>
+        <div>
+          <div class="feature-title">Retire now, or wait</div>
+          <div class="feature-body">How much you can spend, and what a few more years of work would change.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle copper"><svg viewBox="0 0 24 24"><path d="M12 3v18M16.5 7.5c0-1.9-2-3-4.5-3s-4.5 1.1-4.5 3 2 2.8 4.5 3.2 4.5 1.3 4.5 3.3-2 3.5-4.5 3.5-4.5-1.3-4.5-3.3"/></svg></div>
+        <div>
+          <div class="feature-title">Can I afford this?</div>
+          <div class="feature-body">A new car, a kitchen, helping the kids — with an honest verdict.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PAST MARKETS ============ -->
+  <section class="section">
+    <div class="split">
+      <div>
+        <div class="eyebrow copper">Past markets</div>
+        <h2 class="h2">Every stretch of market history since 1928.</h2>
+        <p class="sub">A steady return is a useful guess, but markets don’t move steadily. So Meridian replays your plan as if you’d retired in each year since 1928 — living through the real stock, bond and bill returns, and the real inflation, that followed — and counts how often your money lasted.</p>
+        <div class="verdicts">
+          <span class="chip sturdy">Sturdy</span>
+          <span class="chip shaky">Shaky</span>
+          <span class="chip fragile">Fragile</span>
+        </div>
+        <p class="verdict-notes">A sturdy plan lasted through almost every market, including most of the worst. A fragile one ran out more often than it lasted.</p>
+      </div>
+
+      <figure class="phone-wrap" style="margin-bottom:0;">
+        <div class="phone" role="img" aria-label="The past-markets replay for a sample plan: the money lasted to 95 in 63 of 68 starting years, 93 percent, which is sturdy. The years it ran out were 1929, 1965, 1966, 1968 and 1973.">
+          <div class="island"></div>
+          <div class="screen" aria-hidden="true">
+            <div class="m-nav">Tested against history</div>
+            <div class="m-title">Your money lasted to 95 in 63 of 68 stretches of market history.</div>
+            <div class="m-muted" style="margin-bottom:10px;">We replayed your plan as if you’d started in every year from 1928 to 1995, living through the real returns and inflation that followed.</div>
+            <div class="m-card">
+              <div class="m-row" style="justify-content:flex-start;align-items:flex-end;"><span class="m-pct">93%</span><span class="m-muted">of starting years, your money lasted to 95</span></div>
+              <div class="m-years"><span></span><span class="out"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span class="out"></span><span class="out"></span><span></span><span class="out"></span><span></span><span></span><span></span><span></span><span class="out"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <div class="m-bar-labels"><span>1928</span><span>1995</span></div>
+              <div class="m-legend" style="margin-top:6px;"><span><i style="background:var(--m-teal)"></i>Lasted</span><span><i style="background:var(--m-brick)"></i>Ran out</span></div>
+              <div style="margin:10px 0 6px;"><span class="m-pill">Sturdy</span></div>
+              <div>It lasted through almost every market. The hardest years to have retired were 1929, the late 1960s and 1973.</div>
+            </div>
+          </div>
+        </div>
+        <figcaption class="phone-caption">The past-markets replay, for a sample plan</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ TWO SCREENS ============ -->
+  <section class="section alt">
+    <div class="eyebrow copper">In the app</div>
+    <h2 class="h2">Honest answers to everyday questions.</h2>
+    <p class="sub">Numbers are shown as estimates, in full sentences, with what they assume written underneath.</p>
+
+    <div class="screens">
+      <!-- Can I afford this? -->
+      <figure class="phone-wrap">
+        <div class="phone" role="img" aria-label="Can I afford this? for a sample plan: spending $18,000 all at once, the money still lasts to 100+ at a steady return, and it is still sturdy in past markets.">
+          <div class="island"></div>
+          <div class="screen" aria-hidden="true">
+            <div class="m-nav">Can I afford this?</div>
+            <div class="m-title">How much would you like to spend?</div>
+            <div class="m-amount">$18,000</div>
+            <div class="m-seg"><span class="on">All at once</span><span>Over time</span><span>Ongoing</span></div>
+            <div class="m-card">
+              <div class="m-eyebrow" style="margin-top:0;">What it does to your plan</div>
+              <div class="m-title" style="font-size:14px;margin:4px 0 8px;">Your money still lasts to <span style="color:var(--m-copper)">100+</span> at a steady return.</div>
+              <div style="background:var(--m-tint);border-radius:12px;padding:9px 10px;">
+                <div class="m-eyebrow" style="margin:0 0 5px;color:var(--m-teal);">In past markets</div>
+                <span class="m-pill" style="background:var(--m-card);">Sturdy</span>
+              </div>
+              <div style="margin-top:9px;color:var(--m-text);">Comfortably affordable — and it still holds up in past markets.</div>
+            </div>
+            <div class="m-button">Update my plan</div>
+            <div class="m-foot">Estimates from the details you’ve entered, not financial or tax advice.</div>
+          </div>
+        </div>
+        <figcaption class="phone-caption">Can I afford this?</figcaption>
+      </figure>
+
+      <!-- Paycheck -->
+      <figure class="phone-wrap">
+        <div class="phone" role="img" aria-label="Your retirement paycheck for a sample plan: $4,350 a month from the 401(k) up to the 12% bracket, $2,050 from taxable savings, nothing from the Roth yet, $600 withheld for tax, $5,800 a month after tax.">
+          <div class="island"></div>
+          <div class="screen" aria-hidden="true">
+            <div class="m-nav">Your paycheck</div>
+            <div class="m-title">Your retirement paycheck at 65</div>
+            <div class="m-card">
+              <div class="m-eyebrow" style="margin-top:0;">Each month</div>
+              <div class="m-big" style="font-size:40px;color:var(--m-copper);margin:4px 0 2px;">$5,800</div>
+              <div class="m-muted">after tax</div>
+              <div class="m-sep"></div>
+              <div class="m-row"><div><div class="m-strong">From your 401(k)</div><div class="m-muted">Up to the 12% bracket</div></div><span class="m-num">$4,350</span></div>
+              <div class="m-row"><div><div class="m-strong">From taxable savings</div><div class="m-muted">The rest</div></div><span class="m-num">$2,050</span></div>
+              <div class="m-row"><div><div class="m-strong">From your Roth</div><div class="m-muted">Last — left to grow</div></div><span class="m-num">$0</span></div>
+              <div class="m-sep"></div>
+              <div class="m-row"><div class="m-strong">Tax to withhold</div><span class="m-num copper">−$600</span></div>
+            </div>
+            <div class="m-card">
+              <div class="m-eyebrow copper" style="margin-top:0;">In January</div>
+              <div>Check last year against your 1099-Rs, and move what the standard deduction leaves room for to your Roth.</div>
+            </div>
+          </div>
+        </div>
+        <figcaption class="phone-caption">Your retirement paycheck, with Plus</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ PRIVATE ============ -->
+  <section class="section">
+    <div class="eyebrow copper">Private by design</div>
+    <h2 class="h2">No account. Nothing linked to a bank.</h2>
+    <p class="sub">You type in your savings, and your plan lives on your phone. We never see your name, your email, your plan or your savings.</p>
+
+    <div class="feature-list two three">
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/></svg></div>
+        <div>
+          <div class="feature-title">Kept on your phone</div>
+          <div class="feature-body">Your plan is stored in the app, with a copy in your own iCloud or Google backup so it comes back on a new phone.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg></div>
+        <div>
+          <div class="feature-title">No sign-up, no bank links</div>
+          <div class="feature-body">There is nothing to log in to, and Meridian never connects to banks or brokerages.</div>
+        </div>
+      </div>
+      <div class="feature-row">
+        <div class="icon-circle"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></div>
+        <div>
+          <div class="feature-title">No ads, no tracking</div>
+          <div class="feature-body">No advertising, no tracking across apps, and nothing sold. <a href="privacy.html">Read the privacy policy</a>.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PLUS ============ -->
+  <section class="section alt">
+    <div class="eyebrow copper">Meridian Plus</div>
+    <h2 class="h2">When you want to go further.</h2>
+    <p class="sub">Everything above is free. Plus adds the detail that turns a plan into something you can live on.</p>
+
+    <div class="plus-card">
+      <div class="feature-list two">
+        <div class="feature-row">
+          <div class="icon-circle copper"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+          <div>
+            <div class="feature-title">Your retirement paycheck</div>
+            <div class="feature-body">What to take from each account every month, the tax to withhold, and an order that keeps tax low.</div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="icon-circle copper"><svg viewBox="0 0 24 24"><path d="M6 2.5h8l4 4v15H6z"/><path d="M14 2.5v4h4M9 12h6M9 16h6"/></svg></div>
+          <div>
+            <div class="feature-title">Your plan, as a PDF</div>
+            <div class="feature-body">Four pages for a financial advisor, a spouse, or your own records.</div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="icon-circle copper"><svg viewBox="0 0 24 24"><path d="M3 17l5-6 4 3 5-7 4 4"/><path d="M3 21h18"/></svg></div>
+          <div>
+            <div class="feature-title">Past markets in full</div>
+            <div class="feature-body">Every starting year since 1928, the hardest times to have retired, and the most you could spend or buy and stay sturdy.</div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="icon-circle copper"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="7.5" height="16" rx="1.5"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.5"/></svg></div>
+          <div>
+            <div class="feature-title">Compare plans</div>
+            <div class="feature-body">Retire sooner, spend less, claim later — side by side.</div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="icon-circle copper"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="16" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg></div>
+          <div>
+            <div class="feature-title">When to claim Social Security</div>
+            <div class="feature-body">Every age from 62 to 70, for one or both of you.</div>
+          </div>
+        </div>
+        <div class="feature-row">
+          <div class="icon-circle copper"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.8-3.6 3.6-5.5 7-5.5s6.2 1.9 7 5.5"/></svg></div>
+          <div>
+            <div class="feature-title">If one of you is on your own</div>
+            <div class="feature-body">For couples: what happens to the plan if a partner dies first.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="price-row">
+      <div class="price">
+        <div><div class="p-name">Monthly</div><div class="p-note">Cancel any time</div></div>
+        <div class="p-amt">$4.99<small> /month</small></div>
+      </div>
+      <div class="price featured">
+        <div><div class="p-name">Yearly</div><div class="p-note">7 days free for new subscribers</div></div>
+        <div class="p-amt">$39.99<small> /year</small></div>
+      </div>
+      <div class="price">
+        <div><div class="p-name">Lifetime</div><div class="p-note">Pay once, keep Plus for good</div></div>
+        <div class="p-amt">$99<small> once</small></div>
+      </div>
+    </div>
+    <p class="fine">US prices. Prices vary by country; the App Store or Google Play shows yours before you buy.</p>
+  </section>
+
+  <!-- ============ CTA BAND ============ -->
+  <section class="section cta-band">
+    <h2 class="h2">Coming soon to iPhone and Android.</h2>
+    <p class="sub">Meridian isn’t in the stores yet. This page will link to it as soon as it is.</p>
+    <div class="badge-row">
+      <span class="store-badge coming-soon" aria-label="Coming soon to the App Store">
+        <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">App Store</span></span>
+      </span>
+      <span class="store-badge coming-soon" aria-label="Coming soon to Google Play">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5V3.5c0-.55.45-1 1-1 .18 0 .35.05.51.13l14.14 8.5c.4.24.4.83 0 1.07L5.01 20.87c-.16.08-.33.13-.51.13-.55 0-1-.45-1-1z"/></svg>
+        <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">Google Play</span></span>
+      </span>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="wordmark"><img src="images/mark.svg" alt="" width="32" height="32" />Meridian</div>
+    <nav>
+      <a href="index.html" class="current">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+    <p class="disclaimer">Meridian gives estimates from the details you enter. It is not financial, tax or legal advice. Past markets don’t promise future ones. Screens shown use a sample plan.</p>
+    <p class="madeby">Made by <a href="https://wallyapps.com">Wally Apps</a></p>
+    <p class="copyright">© 2026 Wally Apps LLC. All rights reserved.</p>
+  </footer>
+
+</div>
+
+<script src="site.js"></script>
+</body>
+</html>
