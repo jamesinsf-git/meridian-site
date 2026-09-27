@@ -1,14 +1,1 @@
-<svg width="1024" height="1024" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-  <!-- transparent background — shown on parchment splash background -->
-  <linearGradient id="ml-teal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3E8F7B"/><stop offset="1" stop-color="#1B4A3E"/></linearGradient>
-  <linearGradient id="ml-cop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CE8B3E"/><stop offset="1" stop-color="#8E4F12"/></linearGradient>
-  <linearGradient id="ml-dot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D89547"/><stop offset="1" stop-color="#95540F"/></linearGradient>
-  <circle cx="60" cy="60" r="43" fill="none" stroke="url(#ml-teal)" stroke-width="8"/>
-  <circle cx="60" cy="60" r="39.4" fill="none" stroke="rgba(255,255,255,0.36)" stroke-width="1"/>
-  <circle cx="60" cy="60" r="47" fill="none" stroke="rgba(32,30,29,0.14)" stroke-width="1"/>
-  <circle cx="60" cy="60" r="28" fill="none" stroke="url(#ml-cop)" stroke-width="9"/>
-  <circle cx="60" cy="60" r="24.2" fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="1"/>
-  <circle cx="60" cy="60" r="13" fill="url(#ml-cop)"/>
-  <circle cx="60" cy="56" r="8" fill="#FFFFFF" fill-opacity="0.16"/>
-  <circle cx="60" cy="17" r="8.5" fill="url(#ml-dot)"/>
-</svg>
+<svg width="1024" height="1024" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><linearGradient id="ml-teal" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3E8F7B"/><stop offset="1" stop-color="#1B4A3E"/></linearGradient><linearGradient id="ml-cop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CE8B3E"/><stop offset="1" stop-color="#8E4F12"/></linearGradient><linearGradient id="ml-dot" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D89547"/><stop offset="1" stop-color="#95540F"/></linearGradient><circle cx="60" cy="60" r="43" fill="none" stroke="url(#ml-teal)" stroke-width="5" stroke-linecap="round" stroke-dasharray="244.18 26" stroke-dashoffset="26.03"/><circle cx="60" cy="60" r="28" fill="none" stroke="url(#ml-cop)" stroke-width="8"/><circle cx="60" cy="60" r="13" fill="url(#ml-cop)"/><circle cx="60" cy="56.1" r="8.1" fill="#FFFFFF" fill-opacity="0.16"/><circle cx="86.47" cy="26.12" r="7.5" fill="url(#ml-dot)"/></svg>
