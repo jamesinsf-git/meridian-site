@@ -1,4 +1,4 @@
-/* Everglen — runtime wiring.
+/* Everglen: runtime wiring.
    - Assembles the contact email so Cloudflare Email Obfuscation
      can't rewrite a literal mailto: into a /cdn-cgi/l/email-protection link.
    - Wires store badges to the live listings. Everglen isn't launched yet, so

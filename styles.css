@@ -1,4 +1,4 @@
-/* Everglen — shared styles. Mobile-first; column max-width 460px.
+/* Everglen: shared styles. Mobile-first; column max-width 460px.
    Colours follow the app (light + dark). Fraunces for headlines and numbers,
    DM Sans for everything else. */
 
@@ -606,7 +606,7 @@ a.lnk { color: var(--teal-ink); text-decoration: underline; text-underline-offse
 }
 
 /* =========================================================
-   Responsive scale-up — iPad and desktop
+   Responsive scale-up for iPad and desktop
    Mobile (<=767px) stays exactly as designed.
    ========================================================= */
 
