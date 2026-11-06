@@ -42,23 +42,30 @@
           <li>Free to use. Everglen Plus adds more when you want it.</li>
         </ul>
         <div class="badge-row">
+          <a class="store-badge" data-store="googleplay" href="https://play.google.com/store/apps/details?id=com.wallyapps.meridian" aria-label="Get Everglen on Google Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5V3.5c0-.55.45-1 1-1 .18 0 .35.05.51.13l14.14 8.5c.4.24.4.83 0 1.07L5.01 20.87c-.16.08-.33.13-.51.13-.55 0-1-.45-1-1z"/></svg>
+            <span class="stack"><span class="top">GET IT ON</span><span class="bot">Google Play</span></span>
+          </a>
           <span class="store-badge coming-soon" aria-label="Coming soon to the App Store">
             <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
             <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">App Store</span></span>
           </span>
-          <span class="store-badge coming-soon" aria-label="Coming soon to Google Play">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5V3.5c0-.55.45-1 1-1 .18 0 .35.05.51.13l14.14 8.5c.4.24.4.83 0 1.07L5.01 20.87c-.16.08-.33.13-.51.13-.55 0-1-.45-1-1z"/></svg>
-            <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">Google Play</span></span>
-          </span>
         </div>
       </div>
 
-      <!-- Home screen (sample plan) -->
-      <figure class="phone-wrap" style="margin-bottom:0;">
-        <div class="phone shot" role="img" aria-label="Everglen's Home screen for a sample couple: their money lasts to age 100+, and in real market history since 1928 it lasted until Tom turns 95 in 53 of 62 starting years, which is sturdy. Under it, their plan: retiring at 63 on $8,500 a month.">
-          <img class="shot-img" src="images/screen-home.webp" alt="" width="750" height="1630" />
+      <!-- Promo video (sample couple). Plays silently on a loop; site.js wires the pause button
+           and shows the poster instead for people who ask for reduced motion. -->
+      <figure class="phone-wrap promo" style="margin-bottom:0;">
+        <div class="promo-frame">
+          <video class="promo-video" autoplay muted loop playsinline preload="auto" poster="images/promo-poster.webp" width="720" height="1280" aria-label="A 30-second tour of Everglen with a sample couple. Linda and Tom, 60 and 58, plan to retire at 63 with $1,183,000 saved. Their plan is replayed through every year since 1928, and the money lasts in 54 of 62. They check whether they can afford a trip to Greece next June, see how long their money lasts on Home, and see what two more years of work would buy them. It ends: See how long your money lasts. Everglen. Estimates, not financial or tax advice.">
+            <source src="images/promo.mp4" type="video/mp4" />
+          </video>
+          <button class="promo-toggle" type="button" data-promo-toggle aria-label="Pause the video">
+            <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="5" width="3.5" height="14" rx="1"/><rect x="13.5" y="5" width="3.5" height="14" rx="1"/></svg>
+            <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>
+          </button>
         </div>
-        <figcaption class="phone-caption">Home, for a sample plan</figcaption>
+        <figcaption class="phone-caption">A short tour, with a sample couple</figcaption>
       </figure>
     </div>
   </section>
@@ -132,7 +139,7 @@
 
       <figure class="phone-wrap" style="margin-bottom:0;">
         <div class="phone shot" role="img" aria-label="The past-markets replay for a sample plan: a chart of savings through every starting year since 1928, from 52 today to age 95, and a grid of starting years from 1928 to 1983 showing which lasted and which ran out. The hardest years, worst first: 1969, 1966, 1968, 1973 and 1965. Starting in 1929, the money ran out at 75.">
-          <img class="shot-img" src="images/screen-markets.webp?v=2" alt="" width="750" height="1630" loading="lazy" />
+          <img class="shot-img" src="images/screen-markets.webp?v=3" alt="" width="750" height="1630" loading="lazy" />
         </div>
         <figcaption class="phone-caption">The past-markets replay, for a sample plan</figcaption>
       </figure>
@@ -149,7 +156,7 @@
       <!-- Can I afford this? -->
       <figure class="phone-wrap">
         <div class="phone shot" role="img" aria-label="Can I afford this? for a sample plan: $95,000 for a new kitchen in June 2027. The money still lasts to 100+ at a steady return, but in past markets it lasted in 33 of 56 starting years instead of 36, which takes it from shaky to fragile.">
-          <img class="shot-img" src="images/screen-afford.webp?v=2" alt="" width="750" height="1630" loading="lazy" />
+          <img class="shot-img" src="images/screen-afford.webp?v=3" alt="" width="750" height="1630" loading="lazy" />
         </div>
         <figcaption class="phone-caption">Can I afford this?</figcaption>
       </figure>
@@ -157,7 +164,7 @@
       <!-- Paycheck -->
       <figure class="phone-wrap">
         <div class="phone shot" role="img" aria-label="Your retirement paycheck for a sample plan: $8,000 a month to spend at 65, in today's dollars. A cash reserve with a $96,000 target holds $120,000, so the $24,000 above it is spent first. Each month: $1,580 from a traditional IRA with 1% federal and 3% state tax withheld, $5,752 from savings or cash, and $364 from a brokerage account.">
-          <img class="shot-img" src="images/screen-paycheck.webp?v=2" alt="" width="750" height="1630" loading="lazy" />
+          <img class="shot-img" src="images/screen-paycheck.webp?v=3" alt="" width="750" height="1630" loading="lazy" />
         </div>
         <figcaption class="phone-caption">Your retirement paycheck, with Plus</figcaption>
       </figure>
@@ -267,16 +274,16 @@
 
   <!-- ============ CTA BAND ============ -->
   <section class="section cta-band">
-    <h2 class="h2">Coming soon to iPhone and Android.</h2>
-    <p class="sub">Everglen isn’t in the stores yet. This page will link to it as soon as it is.</p>
+    <h2 class="h2">Now on Android. Coming soon to iPhone.</h2>
+    <p class="sub">Everglen is on Google Play now. The iPhone version is on its way, and this page will link to it as soon as it’s in the App Store.</p>
     <div class="badge-row">
+      <a class="store-badge" data-store="googleplay" href="https://play.google.com/store/apps/details?id=com.wallyapps.meridian" aria-label="Get Everglen on Google Play">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5V3.5c0-.55.45-1 1-1 .18 0 .35.05.51.13l14.14 8.5c.4.24.4.83 0 1.07L5.01 20.87c-.16.08-.33.13-.51.13-.55 0-1-.45-1-1z"/></svg>
+        <span class="stack"><span class="top">GET IT ON</span><span class="bot">Google Play</span></span>
+      </a>
       <span class="store-badge coming-soon" aria-label="Coming soon to the App Store">
         <svg viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
         <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">App Store</span></span>
-      </span>
-      <span class="store-badge coming-soon" aria-label="Coming soon to Google Play">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 20.5V3.5c0-.55.45-1 1-1 .18 0 .35.05.51.13l14.14 8.5c.4.24.4.83 0 1.07L5.01 20.87c-.16.08-.33.13-.51.13-.55 0-1-.45-1-1z"/></svg>
-        <span class="stack"><span class="top">COMING SOON TO</span><span class="bot">Google Play</span></span>
       </span>
     </div>
   </section>
