@@ -1,14 +1,12 @@
 /* Everglen: runtime wiring.
    - Assembles the contact email so Cloudflare Email Obfuscation
      can't rewrite a literal mailto: into a /cdn-cgi/l/email-protection link.
-   - Wires store badges to the live listings. Google Play is live; the App
-     Store URL is empty and its badges stay "Coming soon". When the App Store
-     listing goes live, fill in its URL here and swap those badges' markup in
-     index.html from the coming-soon <span> to an <a data-store="appstore"> link. */
+   - Wires store badges to the live listings (index.html also carries the
+     URLs directly, so the badges work without JavaScript). */
 
 (function () {
   var STORE_URLS = {
-    appstore: '',
+    appstore: 'https://apps.apple.com/us/app/everglen-retirement-planner/id6815006947',
     googleplay: 'https://play.google.com/store/apps/details?id=com.wallyapps.meridian'
   };
 

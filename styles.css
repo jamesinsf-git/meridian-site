@@ -138,13 +138,6 @@ strong { color: var(--text); font-weight: 500; }
 .store-badge .stack { display: flex; flex-direction: column; line-height: 1; text-align: left; }
 .store-badge .stack .top { font-size: 9.5px; letter-spacing: 0.04em; opacity: 0.8; }
 .store-badge .stack .bot { font-size: 16px; font-weight: 500; margin-top: 3px; }
-.store-badge.coming-soon {
-  background: transparent;
-  color: var(--text);
-  border: 1px solid var(--border);
-  cursor: default;
-}
-.store-badge.coming-soon .stack .top { color: var(--copper); opacity: 1; }
 
 /* ---- Sections (home) ---- */
 .section {
