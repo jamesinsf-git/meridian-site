@@ -10,7 +10,7 @@
     googleplay: 'https://play.google.com/store/apps/details?id=com.wallyapps.meridian'
   };
 
-  var addr = 'admin' + '@' + 'wallyapps' + '.' + 'com';
+  var addr = 'everglen' + '@' + 'wallyapps' + '.' + 'com';
 
   document.querySelectorAll('[data-mail]').forEach(function (a) {
     a.setAttribute('href', 'mailto:' + addr);
